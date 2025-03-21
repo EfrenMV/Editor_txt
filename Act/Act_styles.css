@@ -17,20 +17,30 @@
    }
 
   .barra{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 20vh;
     background-color: aqua;
    }
 
+    .box_botones{
+      width: 100%;
+      height: 80px;
+      background-color: brown;
+    }
+
   .box_txt{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
     width: 100%;
-    height: 100%;
+    height: 540px;
    }
 
   .text{
-    height: 50%;
+    background-color: blueviolet;
+    height: 90%;
     width: 90%;
    }
